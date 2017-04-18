@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ld28-html">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="ld28-core-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ld28-core/ld28-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ld28-assets-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ld28-assets/ld28-assets">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ld28-html"/>
+        <property name="java-output-path" value="/ld28-html/target/classes"/>
+    </wb-module>
+</project-modules>
